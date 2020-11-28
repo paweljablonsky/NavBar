@@ -18,8 +18,11 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
+        bottomNavigationView.background = null
+        bottomNavigationView.menu.getItem(2).isEnabled = false
+
         navController = Navigation.findNavController(this, R.id.nav_host_fragment)
-        bottom_nav.setupWithNavController(navController)
+        bottomNavigationView.setupWithNavController(navController)
         NavigationUI.setupActionBarWithNavController(this, navController)
 
     }
