@@ -12,5 +12,11 @@
         android:text="HOME"
         android:textSize="30sp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twój stary to kajak"
+        android:textSize="40dp"
+        android:layout_gravity="bottom|center"/>
 
 </FrameLayout>

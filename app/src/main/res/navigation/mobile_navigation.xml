@@ -11,17 +11,8 @@
         android:label="home_fragment"
         tools:layout="@layout/home_fragment" />
     <fragment
-        android:id="@+id/goalsFragment"
-        android:name="com.paweljablonski.navbarextended.ui.goals.GoalsFragment"
-        android:label="goals_fragment"
-        tools:layout="@layout/goals_fragment" />
-    <fragment
-        android:id="@+id/calendarFragment"
-        android:name="com.paweljablonski.navbarextended.ui.calendar.CalendarFragment"
-        android:label="calendar_fragment"
-        tools:layout="@layout/calendar_fragment" />
-    <fragment
-        android:id="@+id/settingsFragment"
-        android:name="com.paweljablonski.navbarextended.ui.settings.SettingsFragment"
-        android:label="SettingsFragment" />
+        android:id="@+id/dataFragment"
+        android:name="com.paweljablonski.navbarextended.ui.data.DataFragment"
+        android:label="data_fragment"
+        tools:layout="@layout/data_fragment" />
 </navigation>

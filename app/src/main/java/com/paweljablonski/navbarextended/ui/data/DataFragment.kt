@@ -1,4 +1,4 @@
-package com.paweljablonski.navbarextended.ui.calendar
+package com.paweljablonski.navbarextended.ui.data
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,25 +8,25 @@ import android.view.View
 import android.view.ViewGroup
 import com.paweljablonski.navbarextended.R
 
-class CalendarFragment : Fragment() {
+class DataFragment : Fragment() {
 
     companion object {
-        fun newInstance() = CalendarFragment()
+        fun newInstance() = DataFragment()
     }
 
-    private lateinit var viewModel: CalendarViewModel
+    private lateinit var viewModel: DataViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.calendar_fragment, container, false)
+        return inflater.inflate(R.layout.data_fragment, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
+ /*   override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-       // viewModel = ViewModelProvider(this).get(CalendarViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(DataViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
+*/
 }
